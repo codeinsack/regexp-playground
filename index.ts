@@ -1,13 +1,16 @@
-interface User {
-  name: string;
-  age: number;
-  isMarried: boolean;
-}
+const text = "Programming courses always starts with a hello world example.";
 
-const alex: User = {
-  name: "Alex",
-  age: 20,
-  isMarried: false,
-};
+const regexp1 = /hello/;
+const regexp2 = /world/;
 
-console.log(alex);
+// console.log(regexp1.test(text));
+// console.log(regexp2.test(text));
+
+// console.log(regexp1.exec(text));
+// console.log(regexp2.exec(text));
+
+// console.log(text.match(regexp1));
+// console.log(text.search(regexp1));
+
+// console.log(text.replace(regexp1, "bonjour"));
+// console.log(text.split(regexp1));
